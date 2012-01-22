@@ -6,7 +6,7 @@ var XpiInstaller = {
 	// --- Editable items begin ---
 	extFullName: 'Passive Cache', // The name displayed to the user (don't include the version)
 	extShortName: 'pcache', // The leafname of the JAR file (without the .jar part)
-	extVersion: '1.3.1',
+	extVersion: '1.3c',
 	extAuthor: 'Brian Baskin',
 	extLocaleNames: null, // e.g. ['en-US', 'en-GB']
 	extSkinNames: null, // e.g. ['classic', 'modern']

@@ -11,7 +11,7 @@
 // 1.1 - Same as above, now to work with 2.0
 // 1.2 - New changes made to work with 3.0
 // 1.3 - Changes to meta files to support 3.6 and 4.0+. Added in filter for new Google tail
-// 1.3.1 - Wrapped loose variables to be compliant with new testing
+// 1.3b - Wrapped loose variables to be compliant with new testing
 
 var pcache = {
 
@@ -73,7 +73,7 @@ var pcache = {
 	},
 
 	pcachelink : function() {
-	  var URLheader = "http://google.com/search?q=cache:";
+	  var URLheader = "https://encrypted.google.com/search?q=cache:";
 	  var URLfooter = "&strip=1";
 	  var pageURI = pcache.pcuntaglink();
 
